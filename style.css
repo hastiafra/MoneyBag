@@ -1,0 +1,75 @@
+*{
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
+
+body{
+    background-image: url(./images/office.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.header {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    width:100vw;
+    height:80px;
+    position: absolute;
+    top:0;
+    margin: 0px;
+    left:0px; 
+    align-items:center;
+    justify-items:center;
+    justify-content: space-evenly;
+}
+
+button{
+
+    padding: 10px 30px;
+    background: gold;
+    border: none;
+    border-radius: 3px;
+    color: #000000;
+    transition: all ease 500ms;
+    font-size: 30px;
+    flex-direction: row;
+
+}
+
+button:hover{
+    padding: 10px 45px;
+    background: #000000;
+    border: 2px solid gold;
+    border-radius: 3px;
+    color: gold;
+}
+
+.timer{
+color:white;
+font-size: 40px;
+}
+
+.score{
+    color:white;
+    font-size: 40px;
+    }
+
+.result{
+    background-color: rgb(0, 0, 0);
+    margin-left: 20%;
+    font-size: 30px;
+    min-width: fit-content;
+    text-align: center;
+    padding:60px 120px;
+    border-radius: 20px;
+    box-shadow: rgba(240, 237, 46, 0.4) 5px 5px, rgba(240, 227, 46, 0.3) 10px 10px, rgba(240, 221, 46, 0.2) 15px 15px, rgba(237, 240, 46, 0.1) 20px 20px, rgba(240, 211, 46, 0.05) 25px 25px;
+    color:white;
+    display: none;
+    position: absolute;
+
+}
